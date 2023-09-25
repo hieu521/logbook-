@@ -27,7 +27,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
                   ArrayList<String>  student_dob,
                   ArrayList<String>  student_image) {
         this.context = context;
-        MediaManager.init(context);
+//        MediaManager.init(context);
         this.student_id = student_id;
         this.student_name = student_name;
         this.student_email = student_email;
